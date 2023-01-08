@@ -156,11 +156,9 @@ header {
   position: absolute;
   right: 160px;
 }
-
 .containt1 h1 {
   letter-spacing: 0.5px;
   width: 60%;
-  /* margin: 0px 0px 0px 100px; */
 }
 .containt1 .p1 {
   width: 50%;
@@ -338,10 +336,143 @@ header {
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 2550px;
+  top: 2600px;
   left: -2;
 }
 
 .container6 img {
   width: 100%;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container7 {
+  background: url(./imgs/Rectangle.png);
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 672px;
+  display: flex;
+  position: absolute;
+  top: 3050px;
+  left: -2;
+}
+
+.c7Containt {
+  height: 100%;
+  width: 30%;
+  margin-top: 180px;
+}
+.c7Heading {
+  width: 480px;
+  height: 70%;
+  top: 170px;
+  left: 80px;
+  position: absolute;
+}
+.c7H {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 34px;
+}
+.dots {
+  background: url(./imgs/Dots.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 70%;
+}
+.dots img {
+  position: absolute;
+  top: 150px;
+  right: 35px;
+  height: 442px;
+  width: 530px;
+}
+
+.gPlay {
+  width: 182px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 45px 0px;
+}
+.gPlay p {
+  font-weight: bold;
+}
+.gPlay a {
+  margin-left: -10px;
+}
+
+.mBtn3 {
+  height: 56px;
+  width: 184px;
+  margin-right: 20px;
+  background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container7Mob {
+  display: none;
+}
+
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+.footer {
+  width: 100%;
+  background: #222222;
+  padding: 20px 50px;
+  position: absolute;
+  top: 3850px;
+  left: -2;
+}
+
+.footer .sec1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer .sec1 nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .sec1 nav {
+  width: 50%;
+  margin-right: 320px;
+  width: 45%;
+}
+
+.line {
+  background-color: white;
+  width: 1px;
+  height: 20px;
+}
+
+.footer .sec1 > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fBtn {
+  margin-right: 30px;
+}
+
+.footer ul li {
+  list-style-type: none;
+}
+
+.footer .sec3 > ul {
+  display: flex;
+  width: 35%;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+
+.footerMob{
+    display: none;
 }

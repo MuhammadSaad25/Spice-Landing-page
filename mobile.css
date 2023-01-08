@@ -141,44 +141,44 @@ header {
 
 /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container3{
+.container3 {
   top: 950px;
   height: fit-content;
 }
 
-.cardImg{
+.cardImg {
   height: 63px;
   width: 63px;
 }
 
-.Create{
+.Create {
   height: 23.5px;
   width: 29.5px;
 }
-.Distribute{
+.Distribute {
   height: 23.5px;
   width: 23.5px;
 }
-.Monetize{
+.Monetize {
   height: 23.5;
   width: 24px;
 }
-.Host{
+.Host {
   height: 23.75;
   width: 29.33px;
 }
-.Streaming{
+.Streaming {
   height: 24;
   width: 24px;
 }
-.Analytics{
+.Analytics {
   height: 23.5;
   width: 19.5px;
 }
-.card h4{
+.card h4 {
   font-size: 18px;
 }
-.card p{
+.card p {
   padding: 0px 50px;
   font-size: 12px;
 }
@@ -221,4 +221,153 @@ header {
 
 .container6 {
   top: 2530px;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container7 {
+  display: none;
+}
+
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container7Mob {
+  display: flex;
+  flex-direction: column;
+  background: url(./imgs/RectangleMob.png);
+  background-size: contain;
+  background-position: center;
+  height: 610px;
+  width: 100%;
+  top: 2700px;
+  position: absolute;
+}
+
+.c7ContaintMob {
+  top: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c7HMob {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.c7ContaintMob p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 0 40px;
+}
+
+.dotsMob {
+  background: url(./imgs/DotsMob.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.dotsMob img {
+  height: 187px;
+  width: 213px;
+  position: absolute;
+  top: 211px;
+  left: 89px;
+}
+
+.gPlayMob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 450px;
+  left: 125px;
+}
+
+.gPlayMob p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mBtn3Mob {
+  height: 47px;
+  width: 154px;
+  margin-top: 15px;
+  background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.footer{
+  display: none;
+}
+
+.footerMob{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 610px;
+  width: 100%;
+  top: 3350px;
+  position: absolute;
+}
+
+.sec1Mob img {
+  margin-left: 50px;
+  height: fit-content;
+}
+
+.footerMob .sec1Mob {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.footerMob .fBtnMob {
+  width: 20px;
+  height: 30px;
+  /* margin-left: 150px; */
+}
+
+.footerMob .sec2Mob ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+.footerMob .sec2Mob ul li {
+  margin-bottom: 20px;
+}
+
+.sec3Mob {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.sec4Mob ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec4Mob ul li {
+  margin: 10px auto;
 }
