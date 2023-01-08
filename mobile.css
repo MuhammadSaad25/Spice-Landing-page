@@ -106,9 +106,9 @@ header {
   display: block;
 }
 .sep {
-  margin-left: 280px;
-  position: absolute;
-  margin-bottom: -200px;
+    top: 630px;
+    position: absolute;
+    right: 10px;
 }
 /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
