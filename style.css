@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: #fff;
+}
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  background: #121212;
+  /* overflow-y: hidden; */
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 98%;
+  height: 15%;
+}
+
+.left {
+  background: url(./imgs/left.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border: none;
+  left: -6px;
+  top: -115px;
+}
+.right {
+  background: url(./imgs/right.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 477px;
+  height: 477px;
+  right: 2px;
+  top: -72px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.navLeft {
+  width: 35%;
+  margin-left: 2px;
+  display: flex;
+  margin-left: 50px;
+}
+.navLeft img {
+  width: 30%;
+}
+.navCenter {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+.navRight {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.navRight ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+.navCenter ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  width: 100%;
+}
+.navCenter ul li {
+  /* gap: 200px; */
+  margin-right: 15%;
+}
+.links {
+  width: 25%;
+}
+.links p {
+  margin-bottom: 10%;
+}
+.links ul li {
+  margin-right: 10%;
+}
+.mBtn {
+  margin-left: 50%;
+  width: 154px;
+  height: 47px;
+  background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.container1 {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: -2;
+  padding-left: 100px;
+}
+.c1Left {
+  width: 60%;
+  /* height: 100%; */
+}
+.c1Right {
+  width: 50%;
+  /* height: 100%; */
+  padding-right: 100px;
+}
+
+.roundDiv {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  /* top: -20px; */
+  /* right: 300px;/ */
+  background: url(./imgs/rightB.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mainIMG {
+  width: 90%;
+  /* height: 100%; */
+  display: none;
+}
+
+.sep {
+  top: 580px;
+  position: absolute;
+  right: 160px;
+}
+
+.containt1 h1 {
+  letter-spacing: 0.5px;
+  width: 60%;
+  /* margin: 0px 0px 0px 100px; */
+}
+.containt1 .p1 {
+  width: 50%;
+  margin-top: 50px;
+  font-weight: 700;
+}
+.containt1 p {
+  width: 50%;
+  margin-top: 50px;
+}
+.c1btnDiv {
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+}
+.mBtn2 {
+  height: 56px;
+  width: 184px;
+  margin-right: 20px;
+  background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.wBtn {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 184px;
+  background: transparent;
+  border-radius: 8px;
+  border-color: #b13000;
+}
+
+.wBtn img {
+  margin: 0 20px 0 10px;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 900px;
+  left: -2;
+}
+.c2heading {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 40%;
+  justify-content: center;
+}
+.c2heading p {
+  font-weight: 600;
+  font-size: 34px;
+}
+.c2heading img {
+  margin-left: 15px;
+}
+
+.c2pra {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 40%;
+  justify-content: center;
+}
+.c2pra p {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container3 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 1100px;
+}
+
+.card {
+  width: 450px;
+  height: 50%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  background-color: #222222;
+}
+.card h4 {
+  margin-top: 25px;
+  font-size: 24px;
+}
+.card p {
+  padding: 0px 60px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 2000px;
+  left: -2;
+}
+.c4heading {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 40%;
+  justify-content: center;
+}
+.c4heading p {
+  font-weight: 600;
+  font-size: 34px;
+}
+.c4heading img {
+  margin-left: 15px;
+}
+
+.c4pra {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 40%;
+  justify-content: center;
+}
+.c4pra p {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 2200px;
+  left: -2;
+}
+
+.container5 img {
+  width: 100%;
+}
+
+/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+
+.container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 2550px;
+  left: -2;
+}
+
+.container6 img {
+  width: 100%;
+}
