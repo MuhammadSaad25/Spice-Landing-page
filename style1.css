@@ -1,27 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter';
-  color: #fff;
-}
-body {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  /* height: 100vh; */
-  background: #121212;
-  /* overflow-y: hidden; */
-}
-a {
-  text-decoration: none;
-}
-::-webkit-scrollbar {
-  display: none;
-}
-
 header {
   position: absolute;
   top: 0;
@@ -61,7 +37,7 @@ header {
   width: 35%;
   margin-left: 2px;
   display: flex;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 .navLeft img {
   width: 30%;
@@ -129,12 +105,17 @@ header {
   width: 60%;
   /* height: 100%; */
 }
+.c1Right {
+  width: 50%;
+  /* height: 100%; */
+  padding-right: 100px;
+}
 
 .roundDiv {
   position: absolute;
-  width: 776.6px;
+  width: 576.6px;
   height: 685.03px;
-  left: 1000px;
+  left: 670px;
   top: -110px;
   background: url(./imgs/rightB.png);
   background-position: center;
@@ -143,6 +124,7 @@ header {
 }
 .mainIMG {
   width: 90%;
+  /* height: 100%; */
   display: none;
 }
 
@@ -150,7 +132,7 @@ header {
   position: absolute;
   width: 27.88px;
   height: 46px;
-  right: 111px;
+  left: 1200px;
   top: 700px;
 }
 .containt1 h1 {
@@ -159,7 +141,6 @@ header {
   line-height: 53px;
   font-style: normal;
   width: 95%;
-
 }
 .containt1 .p1 {
   width: 70%;
@@ -168,7 +149,6 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  
 }
 .containt1 p {
   width: 70%;
@@ -179,7 +159,7 @@ header {
   line-height: 22px;
 }
 .c1btnDiv {
-  width: 60%;
+  width: 70%;
   margin-top: 30px;
   display: flex;
 }
@@ -208,6 +188,10 @@ header {
   background: transparent;
   border-radius: 8px;
   border-color: #b13000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .wBtn img {
@@ -372,7 +356,7 @@ header {
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 2716px;
+  top: 2616px;
   /* left: -2; */
 }
 
@@ -389,7 +373,7 @@ header {
   height: 672px;
   display: flex;
   position: absolute;
-  top: 3177px;
+  top: 2977px;
   /* left: -2; */
 }
 
@@ -462,12 +446,11 @@ header {
   background: #222222;
   padding: 20px 50px;
   position: absolute;
-  top: 3930px;
+  top: 3730px;
   /* left: -2; */
 }
 
 .footer .sec1 {
-  width: 95%;
   display: flex;
   justify-content: flex-end;
 }
@@ -512,7 +495,7 @@ header {
   width: 35%;
   margin: 0px auto;
   position: absolute;
-  margin-left: 600px;
+  margin-left: 340px;
   justify-content: space-between;
 }
 
