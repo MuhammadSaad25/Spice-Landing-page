@@ -11,9 +11,7 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
   background: #121212;
-  /* overflow-y: hidden; */
 }
 a {
   text-decoration: none;
@@ -92,7 +90,6 @@ a {
     width: 100%;
   }
   .navCenter ul li {
-    /* gap: 200px; */
     margin-right: 15%;
   }
   .links {
@@ -117,18 +114,15 @@ a {
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
   .container1 {
-    /* width: 100%; */
     width: 94%;
     height: 620px;
     display: flex;
     position: absolute;
     top: 293px;
     left: 80px;
-    /* padding-left: 100px; */
   }
   .c1Left {
     width: 60%;
-    /* height: 100%; */
   }
 
   .roundDiv {
@@ -193,8 +187,6 @@ a {
     border-radius: 8px;
     outline: none;
     border: none;
-    /* width: 70%;
-  margin-top: 30px; */
   }
   .wBtn {
     font-weight: 500;
@@ -221,7 +213,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 1052px;
-    /* left: -2; */
   }
   .c2heading {
     display: flex;
@@ -234,8 +225,6 @@ a {
     font-size: 34px;
     line-height: 41px;
   }
-  /* font-weight: 600; */
-  /* font-size: 34px; */
 
   .c2heading img {
     margin-left: 15px;
@@ -293,7 +282,6 @@ a {
     line-height: 29px;
   }
   .card p {
-    /* padding: 0px 40px; */
     width: 80%;
     font-style: normal;
     font-weight: 400;
@@ -311,7 +299,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2097px;
-    /* left: -2; */
   }
   .c4heading {
     display: flex;
@@ -343,7 +330,6 @@ a {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /* margin-top: 54px; */
     margin-top: 30px;
   }
 
@@ -356,7 +342,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2316px;
-    /* left: -2; */
   }
 
   .container5 img {
@@ -372,7 +357,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2716px;
-    /* left: -2; */
   }
 
   .container6 img {
@@ -389,7 +373,6 @@ a {
     display: flex;
     position: absolute;
     top: 3177px;
-    /* left: -2; */
   }
 
   .c7Containt {
@@ -462,7 +445,6 @@ a {
     padding: 20px 50px;
     position: absolute;
     top: 3930px;
-    /* left: -2; */
   }
 
   .footer .sec1 {
@@ -592,7 +574,6 @@ a {
     width: 100%;
   }
   .navCenter ul li {
-    /* gap: 200px; */
     margin-right: 15%;
   }
   .links {
@@ -617,18 +598,15 @@ a {
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
   .container1 {
-    /* width: 100%; */
     width: 94%;
     height: 620px;
     display: flex;
     position: absolute;
     top: 293px;
     left: 80px;
-    /* padding-left: 100px; */
   }
   .c1Left {
     width: 60%;
-    /* height: 100%; */
   }
 
   .roundDiv {
@@ -644,7 +622,6 @@ a {
   }
   .mainIMG {
     width: 90%;
-    /* height: 100%; */
     display: none;
   }
 
@@ -694,8 +671,6 @@ a {
     border-radius: 8px;
     outline: none;
     border: none;
-    /* width: 70%;
-    margin-top: 30px; */
   }
   .wBtn {
     font-weight: 500;
@@ -739,8 +714,6 @@ a {
     font-size: 34px;
     line-height: 41px;
   }
-  /* font-weight: 600; */
-  /* font-size: 34px; */
 
   .c2heading img {
     margin-left: 15px;
@@ -798,7 +771,6 @@ a {
     line-height: 29px;
   }
   .card p {
-    /* padding: 0px 40px; */
     width: 80%;
     font-style: normal;
     font-weight: 400;
@@ -816,7 +788,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2097px;
-    /* left: -2; */
   }
   .c4heading {
     display: flex;
@@ -848,7 +819,6 @@ a {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /* margin-top: 54px; */
     margin-top: 30px;
   }
 
@@ -861,7 +831,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2316px;
-    /* left: -2; */
   }
 
   .container5 img {
@@ -877,7 +846,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2666px;
-    /* left: -2; */
   }
 
   .container6 img {
@@ -894,7 +862,6 @@ a {
     display: flex;
     position: absolute;
     top: 3017px;
-    /* left: -2; */
   }
 
   .c7Containt {
@@ -967,7 +934,6 @@ a {
     padding: 20px 50px;
     position: absolute;
     top: 3780px;
-    /* left: -2; */
   }
 
   .footer .sec1 {
@@ -1121,22 +1087,18 @@ a {
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
   .container1 {
-    /* width: 100%; */
     width: 94%;
     height: 620px;
     display: flex;
     position: absolute;
     top: 293px;
     left: 80px;
-    /* padding-left: 100px; */
   }
   .c1Left {
     width: 60%;
-    /* height: 100%; */
   }
   .c1Right {
     width: 50%;
-    /* height: 100%; */
     padding-right: 100px;
   }
 
@@ -1153,7 +1115,6 @@ a {
   }
   .mainIMG {
     width: 90%;
-    /* height: 100%; */
     display: none;
   }
 
@@ -1203,8 +1164,6 @@ a {
     border-radius: 8px;
     outline: none;
     border: none;
-    /* width: 70%;
-  margin-top: 30px; */
   }
   .wBtn {
     font-weight: 500;
@@ -1235,7 +1194,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 1052px;
-    /* left: -2; */
   }
   .c2heading {
     display: flex;
@@ -1248,8 +1206,6 @@ a {
     font-size: 34px;
     line-height: 41px;
   }
-  /* font-weight: 600; */
-  /* font-size: 34px; */
 
   .c2heading img {
     margin-left: 15px;
@@ -1307,7 +1263,6 @@ a {
     line-height: 29px;
   }
   .card p {
-    /* padding: 0px 40px; */
     width: 80%;
     font-style: normal;
     font-weight: 400;
@@ -1325,7 +1280,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2097px;
-    /* left: -2; */
   }
   .c4heading {
     display: flex;
@@ -1357,21 +1311,18 @@ a {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /* margin-top: 54px; */
     margin-top: 30px;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container5 {
-    /* width: 100%; */
     width: 104vw;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 2316px;
-    /* left: -2; */
   }
 
   .container5 img {
@@ -1382,13 +1333,11 @@ a {
 
   .container6 {
     width: 104vw;
-    /* width: 100%; */
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 2616px;
-    /* left: -2; */
   }
 
   .container6 img {
@@ -1400,13 +1349,11 @@ a {
     background: url(./imgs/Rectangle.png);
     background-position: center;
     background-size: contain;
-    /* width: 100%; */
     width: 104vw;
     height: 672px;
     display: flex;
     position: absolute;
     top: 2977px;
-    /* left: -2; */
   }
 
   .c7Containt {
@@ -1475,12 +1422,10 @@ a {
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
     width: 104vw;
-    /* width: 100%; */
     background: #222222;
     padding: 20px 50px;
     position: absolute;
     top: 3730px;
-    /* left: -2; */
   }
 
   .footer .sec1 {
@@ -1539,7 +1484,6 @@ a {
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Screen size 1024px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-
 @media screen and (max-width: 1024px) {
   * {
     margin: 0;
@@ -1552,9 +1496,7 @@ a {
     width: 139vw;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
     background: #121212;
-    /* overflow-y: hidden; */
   }
   header {
     position: absolute;
@@ -1626,7 +1568,6 @@ a {
     width: 100%;
   }
   .navCenter ul li {
-    /* gap: 200px; */
     margin-right: 15%;
   }
   .links {
@@ -1651,18 +1592,15 @@ a {
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
   .container1 {
-    /* width: 100%; */
     width: 100%;
     height: 620px;
     display: flex;
     position: absolute;
     top: 293px;
     left: 80px;
-    /* padding-left: 100px; */
   }
   .c1Left {
     width: 145%;
-    /* height: 100%; */
   }
 
   .roundDiv {
@@ -1678,7 +1616,6 @@ a {
   }
   .mainIMG {
     width: 90%;
-    /* height: 100%; */
     display: none;
   }
 
@@ -1728,8 +1665,6 @@ a {
     border-radius: 8px;
     outline: none;
     border: none;
-    /* width: 70%;
-  margin-top: 30px; */
   }
   .wBtn {
     font-weight: 500;
@@ -1798,8 +1733,6 @@ a {
 
   .container3 {
     width: 139vw;
-
-    /* width: 100%; */
     height: 700px;
     display: flex;
     flex-wrap: wrap;
@@ -1834,7 +1767,6 @@ a {
     line-height: 29px;
   }
   .card p {
-    /* padding: 0px 40px; */
     width: 80%;
     font-style: normal;
     font-weight: 400;
@@ -1846,7 +1778,6 @@ a {
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container4 {
-    /* width: 100%; */
     width: 139vw;
 
     display: flex;
@@ -1854,7 +1785,6 @@ a {
     flex-direction: column;
     position: absolute;
     top: 2097px;
-    /* left: -2; */
   }
   .c4heading {
     display: flex;
@@ -1886,22 +1816,18 @@ a {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /* margin-top: 54px; */
     margin-top: 30px;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container5 {
-    /* width: 100%; */
     width: 139vw;
-
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 2316px;
-    /* left: -2; */
   }
 
   .container5 img {
@@ -1912,14 +1838,11 @@ a {
 
   .container6 {
     width: 139vw;
-
-    /* width: 100%; */
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 2666px;
-    /* left: -2; */
   }
 
   .container6 img {
@@ -1931,13 +1854,11 @@ a {
     background: url(./imgs/Rectangle.png);
     background-position: center;
     background-size: contain;
-    /* width: 100%; */
     width: 139vw;
     height: 672px;
     display: flex;
     position: absolute;
     top: 3017px;
-    /* left: -2; */
   }
 
   .c7Containt {
@@ -2005,13 +1926,11 @@ a {
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
-    /* width: 100%; */
     width: 139vw;
     background: #222222;
     padding: 20px 50px;
     position: absolute;
     top: 3780px;
-    /* left: -2; */
   }
 
   .footer .sec1 {
