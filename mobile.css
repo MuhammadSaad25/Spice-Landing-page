@@ -1,373 +1,374 @@
-body {
-  width: 100vw;
-  height: 100vh;
-}
-header {
-  width: 100vw;
-  height: 10%;
-}
-.right {
-  display: none;
-}
-.left {
-  background: url(./imgs/left.png);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  width: 370px;
-  height: 370px;
-  border: none;
-  left: -6px;
-  top: -0px;
-}
-.navLeft {
-  width: 15%;
-  margin: 0;
-}
-.navLeft img {
-  width: 100%;
-}
+@media screen and (max-widht: 385px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  header {
+    width: 100vw;
+    height: 10%;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    background: url(./imgs/left.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    border: none;
+    left: -6px;
+    top: -0px;
+  }
+  .navLeft {
+    width: 15%;
+    margin: 0;
+  }
+  .navLeft img {
+    width: 100%;
+  }
 
-.navCenter ul li {
-  width: 20%;
-  margin-right: 10px;
-  font-size: 10px;
-}
-.navRight {
-  width: 30%;
-  margin: 0;
-  align-items: flex-start;
-}
-.links {
-  display: none;
-}
-.btnDiv {
-  width: 100%;
-}
-.mBtn {
-  margin: 0px;
-  width: 90px;
-  height: 30px;
-  font-size: 8px;
-}
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-.container1 {
-  padding: 0;
-  top: 70px;
-  display: block;
-}
-.c1Left {
-  width: 100%;
-  padding-left: 15px;
-}
-.c1Right {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 0px;
-}
-.containt1 h1 {
-  letter-spacing: 0.5px;
-  width: 100%;
-  font-size: 22px;
-  margin: 20px 0 0 0;
-}
-.containt1 .p1 {
-  width: 100%;
-  margin: 30px 0 0 0;
-  font-size: 14px;
-}
-.containt1 p {
-  width: 100%;
-  font-size: 14px;
-  margin: 30px 0 0 0;
-}
-.c1btnDiv {
-  font-size: 16px;
-  width: 100%;
-  margin: 30px 0 0 0;
-}
-.mBtn2 {
-  height: 47px;
-  width: 154px;
-}
-.wBtn {
-  height: 47px;
-  width: 154px;
-}
-.roundDiv {
-  margin-top: 20px;
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.mainIMG {
-  display: block;
-}
-.sep {
+  .navCenter ul li {
+    width: 20%;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .navRight {
+    width: 30%;
+    margin: 0;
+    align-items: flex-start;
+  }
+  .links {
+    display: none;
+  }
+  .btnDiv {
+    width: 100%;
+  }
+  .mBtn {
+    margin: 0px;
+    width: 90px;
+    height: 30px;
+    font-size: 8px;
+  }
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  .container1 {
+    padding: 0;
+    top: 70px;
+    display: block;
+  }
+  .c1Left {
+    width: 100%;
+    padding-left: 15px;
+  }
+  .c1Right {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+  .containt1 h1 {
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+  }
+  .containt1 .p1 {
+    width: 100%;
+    margin: 30px 0 0 0;
+    font-size: 14px;
+  }
+  .containt1 p {
+    width: 100%;
+    font-size: 14px;
+    margin: 30px 0 0 0;
+  }
+  .c1btnDiv {
+    font-size: 16px;
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+  .mBtn2 {
+    height: 47px;
+    width: 154px;
+  }
+  .wBtn {
+    height: 47px;
+    width: 154px;
+  }
+  .roundDiv {
+    margin-top: 20px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainIMG {
+    display: block;
+  }
+  .sep {
     top: 630px;
     position: absolute;
     right: 10px;
-}
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  }
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container2 {
-  padding: 0;
-  top: 800px;
-}
-.c2heading {
-  width: 100%;
-}
+  .container2 {
+    padding: 0;
+    top: 800px;
+  }
+  .c2heading {
+    width: 100%;
+  }
 
-.c2heading img {
-  margin-left: 5px;
-  width: 40px;
-}
+  .c2heading img {
+    margin-left: 5px;
+    width: 40px;
+  }
 
-.c2heading p {
-  font-size: 20px;
-}
+  .c2heading p {
+    font-size: 20px;
+  }
 
-.c2pra {
-  width: 100%;
-}
+  .c2pra {
+    width: 100%;
+  }
 
-.c2pra p {
-  padding: 0 35px;
-  margin-top: 20px;
-  font-size: 12px;
-}
+  .c2pra p {
+    padding: 0 35px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
 
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container3 {
-  top: 950px;
-  height: fit-content;
-}
+  .container3 {
+    top: 950px;
+    height: fit-content;
+  }
 
-.cardImg {
-  height: 63px;
-  width: 63px;
-}
+  .cardImg {
+    height: 63px;
+    width: 63px;
+  }
 
-.Create {
-  height: 23.5px;
-  width: 29.5px;
-}
-.Distribute {
-  height: 23.5px;
-  width: 23.5px;
-}
-.Monetize {
-  height: 23.5;
-  width: 24px;
-}
-.Host {
-  height: 23.75;
-  width: 29.33px;
-}
-.Streaming {
-  height: 24;
-  width: 24px;
-}
-.Analytics {
-  height: 23.5;
-  width: 19.5px;
-}
-.card h4 {
-  font-size: 18px;
-}
-.card p {
-  padding: 0px 50px;
-  font-size: 12px;
-}
+  .Create {
+    height: 23.5px;
+    width: 29.5px;
+  }
+  .Distribute {
+    height: 23.5px;
+    width: 23.5px;
+  }
+  .Monetize {
+    height: 23.5;
+    width: 24px;
+  }
+  .Host {
+    height: 23.75;
+    width: 29.33px;
+  }
+  .Streaming {
+    height: 24;
+    width: 24px;
+  }
+  .Analytics {
+    height: 23.5;
+    width: 19.5px;
+  }
+  .card h4 {
+    font-size: 18px;
+  }
+  .card p {
+    padding: 0px 50px;
+    font-size: 12px;
+  }
 
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container4 {
-  padding: 0;
-  top: 2350px;
-}
-.c4heading {
-  width: 100%;
-}
+  .container4 {
+    padding: 0;
+    top: 2350px;
+  }
+  .c4heading {
+    width: 100%;
+  }
 
-.c4heading img {
-  margin-left: 5px;
-  width: 40px;
-}
+  .c4heading img {
+    margin-left: 5px;
+    width: 40px;
+  }
 
-.c4heading p {
-  font-size: 20px;
-}
+  .c4heading p {
+    font-size: 20px;
+  }
 
-.c4pra {
-  width: 100%;
-}
+  .c4pra {
+    width: 100%;
+  }
 
-.c4pra p {
-  padding: 0 35px;
-  margin-top: 20px;
-  font-size: 12px;
-}
+  .c4pra p {
+    padding: 0 35px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
 
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-.container5 {
-  top: 2450px;
-}
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  .container5 {
+    top: 2450px;
+  }
 
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container6 {
-  top: 2530px;
-}
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  .container6 {
+    top: 2530px;
+  }
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container7 {
-  display: none;
-}
+  .container7 {
+    display: none;
+  }
 
-/* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
+  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
-.container7Mob {
-  display: flex;
-  flex-direction: column;
-  background: url(./imgs/RectangleMob.png);
-  background-size: contain;
-  background-position: center;
-  height: 610px;
-  width: 100%;
-  top: 2700px;
-  position: absolute;
-}
+  .container7Mob {
+    display: flex;
+    flex-direction: column;
+    background: url(./imgs/RectangleMob.png);
+    background-size: contain;
+    background-position: center;
+    height: 610px;
+    width: 100%;
+    top: 2700px;
+    position: absolute;
+  }
 
-.c7ContaintMob {
-  top: 20px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .c7ContaintMob {
+    top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.c7HMob {
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 15px;
-}
+  .c7HMob {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
 
-.c7ContaintMob p {
-  font-size: 12px;
-  text-align: center;
-  margin-top: 15px;
-  padding: 0 40px;
-}
+  .c7ContaintMob p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 40px;
+  }
 
-.dotsMob {
-  background: url(./imgs/DotsMob.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-}
+  .dotsMob {
+    background: url(./imgs/DotsMob.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 
-.dotsMob img {
-  height: 187px;
-  width: 213px;
-  position: absolute;
-  top: 211px;
-  left: 89px;
-}
+  .dotsMob img {
+    height: 187px;
+    width: 213px;
+    position: absolute;
+    top: 211px;
+    left: 89px;
+  }
 
-.gPlayMob {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 450px;
-  left: 125px;
-}
+  .gPlayMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 125px;
+  }
 
-.gPlayMob p {
-  font-size: 14px;
-  font-weight: 500;
-}
+  .gPlayMob p {
+    font-size: 14px;
+    font-weight: 500;
+  }
 
-.mBtn3Mob {
-  height: 47px;
-  width: 154px;
-  margin-top: 15px;
-  background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-  border-radius: 8px;
-  outline: none;
-  border: none;
-}
+  .mBtn3Mob {
+    height: 47px;
+    width: 154px;
+    margin-top: 15px;
+    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+  }
 
-.footer{
-  display: none;
-}
+  .footer {
+    display: none;
+  }
 
-.footerMob{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 610px;
-  width: 100%;
-  top: 3350px;
-  position: absolute;
-}
+  .footerMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 610px;
+    width: 100%;
+    top: 3350px;
+    position: absolute;
+  }
 
-.sec1Mob img {
-  margin-left: 50px;
-  height: fit-content;
-}
+  .sec1Mob img {
+    margin-left: 50px;
+    height: fit-content;
+  }
 
-.footerMob .sec1Mob {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-}
+  .footerMob .sec1Mob {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
 
-.footerMob .fBtnMob {
-  width: 20px;
-  height: 30px;
-  /* margin-left: 150px; */
-}
+  .footerMob .fBtnMob {
+    width: 20px;
+    height: 30px;
+    /* margin-left: 150px; */
+  }
 
-.footerMob .sec2Mob ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-}
+  .footerMob .sec2Mob ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
 
+  .footerMob .sec2Mob ul li {
+    margin-bottom: 20px;
+  }
 
-.footerMob .sec2Mob ul li {
-  margin-bottom: 20px;
-}
+  .sec3Mob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+  }
 
-.sec3Mob {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
-  margin: 20px auto;
-}
+  .sec4Mob ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.sec4Mob ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sec4Mob ul li {
-  margin: 10px auto;
+  .sec4Mob ul li {
+    margin: 10px auto;
+  }
 }
