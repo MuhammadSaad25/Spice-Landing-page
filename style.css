@@ -2420,30 +2420,22 @@ a {
     margin: 10px auto;
   }
 }
-
 @media screen and (max-width: 360px) {
-  .container1{
-    width: 105vw;
+  .left{
+    width: 366px;
   }
-  .container2{
-    width: 105vw;
+
+  .btnDiv{
+    left: 0px;
   }
-  .container3{
-    width: 105vw;
+  .containt1 h1 {
+    left: 0px;
   }
-  .container4{
-    width: 105vw;
+  .roundDiv{
+    left: 40px;
   }
-  .container5{
-    width: 105vw;
-  }
-  .container6{
-    width: 105vw;
-  }
-  .container7Mob{
-    width: 105vw;
-  }
-  .footerMob{
-    width: 105vw;
+  .sep{
+    left: 310px;
   }
 }
+
