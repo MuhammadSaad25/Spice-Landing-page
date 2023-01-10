@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: "Inter";
   color: #fff;
 }
 body {
@@ -20,7 +20,6 @@ a {
   display: none;
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Screen size 1920px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 @media screen and (max-width: 1920px) {
   header {
     position: absolute;
@@ -28,7 +27,6 @@ a {
     width: 100%;
     height: 15%;
   }
-
   .left {
     background: url(./imgs/left.png);
     background-position: center;
@@ -111,9 +109,7 @@ a {
     outline: none;
     border: none;
   }
-
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
   .container1 {
     width: 94%;
     height: 620px;
@@ -126,7 +122,6 @@ a {
     width: 60%;
     margin-top: 50px;
   }
-
   .roundDiv {
     position: absolute;
     width: 776.6px;
@@ -142,7 +137,6 @@ a {
     width: 90%;
     display: none;
   }
-
   .sep {
     position: absolute;
     width: 27.88px;
@@ -202,12 +196,10 @@ a {
     border-radius: 8px;
     border-color: #b13000;
   }
-
   .wBtn img {
     margin: 0 20px 0 10px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container2 {
     width: 95%;
     display: flex;
@@ -231,7 +223,6 @@ a {
   .c2heading img {
     margin-left: 15px;
   }
-
   .c2pra {
     display: flex;
     align-items: center;
@@ -245,9 +236,7 @@ a {
     text-align: center;
     margin-top: 54px;
   }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container3 {
     width: 100%;
     height: 700px;
@@ -257,7 +246,6 @@ a {
     position: absolute;
     top: 1295px;
   }
-
   .card {
     width: 415px;
     height: 50%;
@@ -266,7 +254,6 @@ a {
     align-items: center;
     flex-direction: column;
   }
-
   .cardImg {
     display: flex;
     align-items: center;
@@ -293,7 +280,6 @@ a {
     margin-top: 25px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container4 {
     width: 100%;
     display: flex;
@@ -320,7 +306,6 @@ a {
   .c4heading img {
     margin-left: 15px;
   }
-
   .c4pra {
     display: flex;
     align-items: center;
@@ -334,9 +319,7 @@ a {
     text-align: center;
     margin-top: 30px;
   }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container5 {
     width: 100%;
     display: flex;
@@ -345,13 +328,10 @@ a {
     position: absolute;
     top: 2316px;
   }
-
   .container5 img {
     width: 100%;
   }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container6 {
     width: 100%;
     display: flex;
@@ -360,12 +340,10 @@ a {
     position: absolute;
     top: 2716px;
   }
-
   .container6 img {
     width: 100%;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container7 {
     background: url(./imgs/Rectangle.png);
     background-position: center;
@@ -376,7 +354,6 @@ a {
     position: absolute;
     top: 3177px;
   }
-
   .c7Containt {
     height: 100%;
     width: 30%;
@@ -409,7 +386,6 @@ a {
     height: 442px;
     width: 530px;
   }
-
   .gPlay {
     width: 182px;
     height: 70px;
@@ -423,7 +399,6 @@ a {
   .gPlay a {
     margin-left: -10px;
   }
-
   .mBtn3 {
     height: 56px;
     width: 184px;
@@ -433,13 +408,11 @@ a {
     outline: none;
     border: none;
   }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container7Mob {
     display: none;
   }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
     width: 100%;
@@ -448,48 +421,39 @@ a {
     position: absolute;
     top: 3930px;
   }
-
   .footer .sec1 {
     width: 95%;
     display: flex;
     justify-content: flex-end;
   }
-
   .footer .sec1 nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
   .footer .sec1 nav {
     width: 50%;
     margin-right: 320px;
     width: 45%;
   }
-
   .line {
     background-color: white;
     width: 1px;
     height: 20px;
   }
-
   .footer .sec1 > ul {
     display: flex;
     justify-content: space-between;
   }
-
   .fBtn {
     margin-right: 30px;
   }
-
   .footer ul li {
     list-style-type: none;
   }
-
   .sec3 {
     padding-bottom: 30px;
   }
-
   .footer .sec3 > ul {
     display: flex;
     width: 35%;
@@ -498,1514 +462,159 @@ a {
     margin-left: 600px;
     justify-content: space-between;
   }
-
   .footerMob {
     display: none;
   }
 }
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Screen size 1536px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 @media screen and (max-width: 1536px) {
-  header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 15%;
-  }
-
-  .left {
-    background: url(./imgs/left.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    width: 900px;
-    height: 900px;
-    border: none;
-    left: -6px;
-    top: -115px;
-  }
-  .right {
-    background: url(./imgs/right.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    width: 477px;
-    height: 477px;
-    right: 2px;
-    top: -72px;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
   .navLeft {
-    width: 35%;
-    margin-left: 2px;
-    display: flex;
     margin-left: 50px;
   }
-  .navLeft img {
-    width: 30%;
-  }
-  .navCenter {
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-  }
-  .navRight {
-    width: 35%;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  .navRight ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul li {
-    margin-right: 15%;
-  }
-  .links {
-    width: 28%;
-  }
-  .links p {
-    margin-bottom: 10%;
-  }
-  .links ul li {
-    margin-right: 10%;
-  }
-  .mBtn {
-    margin-left: 50%;
-    width: 154px;
-    height: 47px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
-  .container1 {
-    width: 94%;
-    height: 620px;
-    display: flex;
-    position: absolute;
-    top: 293px;
-    left: 80px;
-  }
-  .c1Left {
-    width: 60%;
-  }
-
   .roundDiv {
-    position: absolute;
     width: 576.6px;
-    height: 685.03px;
     left: 770px;
-    top: -110px;
-    background: url(./imgs/rightB.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
-  .mainIMG {
-    width: 90%;
-    display: none;
-  }
-
   .sep {
-    position: absolute;
-    width: 27.88px;
-    height: 46px;
     left: 1300px;
-    top: 700px;
-  }
-  .containt1 h1 {
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 53px;
-    font-style: normal;
-    width: 95%;
-  }
-  .containt1 .p1 {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .containt1 p {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
   }
   .c1btnDiv {
     width: 70%;
-    margin-top: 30px;
-    display: flex;
-  }
-  .mBtn2 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    height: 56px;
-    width: 184px;
-    margin-right: 90px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-  .wBtn {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    height: 56px;
-    width: 184px;
-    background: transparent;
-    border-radius: 8px;
-    border-color: #b13000;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .wBtn img {
-    margin: 0 20px 0 10px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container2 {
     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 1052px;
-    /* left: -2; */
   }
-  .c2heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-
-  .c2heading img {
-    margin-left: 15px;
-  }
-
-  .c2pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 53%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 54px;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container3 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
-    top: 1295px;
-  }
-
-  .card {
-    width: 415px;
-    height: 50%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .cardImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 126px;
-    height: 126px;
-    border-radius: 50%;
-    background-color: #222222;
-  }
-  .card h4 {
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-  }
-  .card p {
-    width: 80%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 25px;
-  }
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container4 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2097px;
-  }
-  .c4heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-  .c4heading p {
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .c4heading img {
-    margin-left: 15px;
-  }
-
-  .c4pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 48%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container5 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2316px;
-  }
-
-  .container5 img {
-    width: 100%;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container6 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
     top: 2666px;
   }
-
-  .container6 img {
-    width: 100%;
-  }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container7 {
-    background: url(./imgs/Rectangle.png);
-    background-position: center;
-    background-size: contain;
-    width: 100%;
-    height: 672px;
-    display: flex;
-    position: absolute;
     top: 3017px;
   }
-
-  .c7Containt {
-    height: 100%;
-    width: 30%;
-    margin-top: 180px;
-  }
-  .c7Heading {
-    width: 480px;
-    height: 70%;
-    top: 170px;
-    left: 80px;
-    position: absolute;
-  }
-  .c7H {
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .dots {
-    background: url(./imgs/Dots.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    width: 70%;
-  }
-  .dots img {
-    position: absolute;
-    top: 150px;
-    right: 35px;
-    height: 442px;
-    width: 530px;
-  }
-
-  .gPlay {
-    width: 182px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    margin: 45px 0px;
-  }
-  .gPlay p {
-    font-weight: bold;
-  }
-  .gPlay a {
-    margin-left: -10px;
-  }
-
-  .mBtn3 {
-    height: 56px;
-    width: 184px;
-    margin-right: 20px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container7Mob {
-    display: none;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
-    width: 100%;
-    background: #222222;
-    padding: 20px 50px;
-    position: absolute;
     top: 3780px;
   }
-
-  .footer .sec1 {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .footer .sec1 nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer .sec1 nav {
-    width: 50%;
-    margin-right: 320px;
-    width: 45%;
-  }
-
-  .line {
-    background-color: white;
-    width: 1px;
-    height: 20px;
-  }
-
-  .footer .sec1 > ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .fBtn {
     margin-right: 20px;
   }
-
-  .footer ul li {
-    list-style-type: none;
-  }
-
-  .sec3 {
-    padding-bottom: 30px;
-  }
-
   .footer .sec3 > ul {
-    display: flex;
-    width: 35%;
-    margin: 0px auto;
-    position: absolute;
     margin-left: 400px;
-    justify-content: space-between;
-  }
-
-  .footerMob {
-    display: none;
   }
 }
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Screen size 1366px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 @media screen and (max-width: 1366px) {
-  header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 15%;
-  }
-
-  .left {
-    background: url(./imgs/left.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    width: 900px;
-    height: 900px;
-    border: none;
-    left: -6px;
-    top: -115px;
-  }
-  .right {
-    background: url(./imgs/right.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    width: 477px;
-    height: 477px;
-    right: 2px;
-    top: -72px;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  .navLeft {
-    width: 35%;
-    margin-left: 2px;
-    display: flex;
-    margin-left: 50px;
-  }
-  .navLeft img {
-    width: 30%;
-  }
-  .navCenter {
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-  }
-  .navRight {
-    width: 35%;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  .navRight ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul li {
-    /* gap: 200px; */
-    margin-right: 15%;
-  }
-  .links {
-    width: 28%;
-  }
-  .links p {
-    margin-bottom: 10%;
-  }
-  .links ul li {
-    margin-right: 10%;
-  }
-  .mBtn {
-    margin-left: 50%;
-    width: 154px;
-    height: 47px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
-  .container1 {
-    width: 94%;
-    height: 620px;
-    display: flex;
-    position: absolute;
-    top: 293px;
-    left: 80px;
-  }
-  .c1Left {
-    width: 60%;
-  }
   .c1Right {
     width: 50%;
     padding-right: 100px;
   }
-
   .roundDiv {
-    position: absolute;
-    width: 576.6px;
-    height: 685.03px;
     left: 670px;
-    top: -110px;
-    background: url(./imgs/rightB.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
-  .mainIMG {
-    width: 90%;
-    display: none;
-  }
-
   .sep {
-    position: absolute;
-    width: 27.88px;
-    height: 46px;
     left: 1200px;
-    top: 700px;
   }
-  .containt1 h1 {
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 53px;
-    font-style: normal;
-    width: 95%;
-  }
-  .containt1 .p1 {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .containt1 p {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-  }
-  .c1btnDiv {
-    width: 70%;
-    margin-top: 30px;
-    display: flex;
-  }
-  .mBtn2 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    height: 56px;
-    width: 184px;
-    margin-right: 90px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-  .wBtn {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    height: 56px;
-    width: 184px;
-    background: transparent;
-    border-radius: 8px;
-    border-color: #b13000;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .wBtn img {
-    margin: 0 20px 0 10px;
-  }
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 1052px;
-  }
-  .c2heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-
-  .c2heading img {
-    margin-left: 15px;
-  }
-
-  .c2pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 53%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 54px;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container3 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
-    top: 1295px;
-  }
-
-  .card {
-    width: 415px;
-    height: 50%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .cardImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 126px;
-    height: 126px;
-    border-radius: 50%;
-    background-color: #222222;
-  }
-  .card h4 {
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-  }
-  .card p {
-    width: 80%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 25px;
-  }
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container4 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2097px;
-  }
-  .c4heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-  .c4heading p {
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .c4heading img {
-    margin-left: 15px;
-  }
-
-  .c4pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 48%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container5 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2316px;
-  }
-
-  .container5 img {
-    width: 100%;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container6 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
     top: 2616px;
   }
-
-  .container6 img {
-    width: 100%;
-  }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container7 {
-    background: url(./imgs/Rectangle.png);
-    background-position: center;
-    background-size: contain;
-    width: 100%;
-    height: 672px;
-    display: flex;
-    position: absolute;
     top: 2977px;
   }
-
   .c7Containt {
-    height: 100%;
-    width: 30%;
     margin-top: 180px;
   }
-  .c7Heading {
-    width: 480px;
-    height: 70%;
-    top: 170px;
-    left: 80px;
-    position: absolute;
-  }
-  .c7H {
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .dots {
-    background: url(./imgs/Dots.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    width: 70%;
-  }
-  .dots img {
-    position: absolute;
-    top: 150px;
-    right: 35px;
-    height: 442px;
-    width: 530px;
-  }
-
-  .gPlay {
-    width: 182px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    margin: 45px 0px;
-  }
-  .gPlay p {
-    font-weight: bold;
-  }
-  .gPlay a {
-    margin-left: -10px;
-  }
-
-  .mBtn3 {
-    height: 56px;
-    width: 184px;
-    margin-right: 20px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container7Mob {
-    display: none;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
-    width: 100%;
-    background: #222222;
-    padding: 20px 50px;
-    position: absolute;
     top: 3730px;
   }
-
-  .footer .sec1 {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .footer .sec1 nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer .sec1 nav {
-    width: 50%;
-    margin-right: 320px;
-    width: 45%;
-  }
-
-  .line {
-    background-color: white;
-    width: 1px;
-    height: 20px;
-  }
-
-  .footer .sec1 > ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .fBtn {
     margin-right: 30px;
   }
-
-  .footer ul li {
-    list-style-type: none;
-  }
-
-  .sec3 {
-    padding-bottom: 30px;
-  }
-
   .footer .sec3 > ul {
-    display: flex;
-    width: 35%;
-    margin: 0px auto;
-    position: absolute;
     margin-left: 340px;
-    justify-content: space-between;
-  }
-
-  .footerMob {
-    display: none;
   }
 }
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Screen size 1024px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 @media screen and (max-width: 1024px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter';
-    color: #fff;
-  }
   body {
     width: 139vw;
-    display: flex;
-    flex-direction: column;
-    background: #121212;
   }
   header {
-    position: absolute;
-    top: 0;
-    width: 100%;
     width: 139vw;
-    height: 15%;
-  }
-
-  .left {
-    background: url(./imgs/left.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    width: 900px;
-    height: 900px;
-    border: none;
-    left: -6px;
-    top: -115px;
   }
   .right {
-    background: url(./imgs/right.png);
-    background-position: right;
-    background-size: cover;
-    position: absolute;
-    width: 477px;
-    height: 477px;
     right: -400px;
-    top: -72px;
   }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  .navLeft {
-    width: 35%;
-    margin-left: 2px;
-    display: flex;
-    margin-left: 50px;
-  }
-  .navLeft img {
-    width: 30%;
-  }
-  .navCenter {
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-  }
-  .navRight {
-    width: 35%;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  .navRight ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    width: 100%;
-  }
-  .navCenter ul li {
-    margin-right: 15%;
-  }
-  .links {
-    width: 28%;
-  }
-  .links p {
-    margin-bottom: 10%;
-  }
-  .links ul li {
-    margin-right: 10%;
-  }
-  .mBtn {
-    margin-left: 50%;
-    width: 154px;
-    height: 47px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
   .container1 {
     width: 100%;
-    height: 620px;
-    display: flex;
-    position: absolute;
-    top: 293px;
-    left: 80px;
   }
   .c1Left {
     width: 145%;
   }
-
   .roundDiv {
-    position: absolute;
-    width: 576.6px;
-    height: 685.03px;
     left: 700px;
     top: -100px;
-    background: url(./imgs/rightB.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .mainIMG {
-    width: 90%;
-    display: none;
-  }
-
-  .sep {
-    position: absolute;
-    width: 27.88px;
-    height: 46px;
-    left: 1200px;
-    top: 700px;
-  }
-  .containt1 h1 {
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 53px;
-    font-style: normal;
-    width: 95%;
-  }
-  .containt1 .p1 {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .containt1 p {
-    width: 70%;
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-  }
-  .c1btnDiv {
-    width: 70%;
-    margin-top: 30px;
-    display: flex;
-  }
-  .mBtn2 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    height: 56px;
-    width: 184px;
-    margin-right: 90px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-  .wBtn {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    height: 56px;
-    width: 184px;
-    background: transparent;
-    border-radius: 8px;
-    border-color: #b13000;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .wBtn img {
-    margin: 0 20px 0 10px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container2 {
     width: 139vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 1052px;
-    /* left: -2; */
   }
-  .c2heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-  /* font-weight: 600; */
-  /* font-size: 34px; */
-
-  .c2heading img {
-    margin-left: 15px;
-  }
-
-  .c2pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 53%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 54px;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container3 {
     width: 139vw;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
-    top: 1295px;
-  }
-
-  .card {
-    width: 415px;
-    height: 50%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .cardImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 126px;
-    height: 126px;
-    border-radius: 50%;
-    background-color: #222222;
-  }
-  .card h4 {
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-  }
-  .card p {
-    width: 80%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 25px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container4 {
     width: 139vw;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2097px;
   }
-  .c4heading {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 45%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-  }
-  .c4heading p {
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .c4heading img {
-    margin-left: 15px;
-  }
-
-  .c4pra {
-    display: flex;
-    align-items: center;
-    height: 10%;
-    width: 48%;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container5 {
     width: 139vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 2316px;
   }
-
-  .container5 img {
-    width: 100%;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container6 {
     width: 139vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
     top: 2666px;
   }
-
-  .container6 img {
-    width: 100%;
-  }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
   .container7 {
-    background: url(./imgs/Rectangle.png);
-    background-position: center;
-    background-size: contain;
     width: 139vw;
-    height: 672px;
-    display: flex;
-    position: absolute;
     top: 3017px;
   }
-
-  .c7Containt {
-    height: 100%;
-    width: 30%;
-    margin-top: 180px;
-  }
-  .c7Heading {
-    width: 480px;
-    height: 70%;
-    top: 170px;
-    left: 80px;
-    position: absolute;
-  }
-  .c7H {
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 34px;
-  }
-  .dots {
-    background: url(./imgs/Dots.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    width: 70%;
-  }
-  .dots img {
-    position: absolute;
-    top: 150px;
-    right: 35px;
-    height: 442px;
-    width: 530px;
-  }
-
-  .gPlay {
-    width: 182px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    margin: 45px 0px;
-  }
-  .gPlay p {
-    font-weight: bold;
-  }
-  .gPlay a {
-    margin-left: -10px;
-  }
-
-  .mBtn3 {
-    height: 56px;
-    width: 184px;
-    margin-right: 20px;
-    background: linear-gradient(135.11deg, #b13000 3.93%, #990000 100.89%);
-    border-radius: 8px;
-    outline: none;
-    border: none;
-  }
-
-  /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
-
-  .container7Mob {
-    display: none;
-  }
-
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .footer {
     width: 139vw;
-    background: #222222;
-    padding: 20px 50px;
-    position: absolute;
     top: 3780px;
   }
-
-  .footer .sec1 {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .footer .sec1 nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer .sec1 nav {
-    width: 50%;
-    margin-right: 320px;
-    width: 45%;
-  }
-
-  .line {
-    background-color: white;
-    width: 1px;
-    height: 20px;
-  }
-
-  .footer .sec1 > ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .fBtn {
     margin: 0px;
   }
-
-  .footer ul li {
-    list-style-type: none;
-  }
-
-  .sec3 {
-    padding-bottom: 30px;
-  }
-
   .footer .sec3 > ul {
-    display: flex;
-    width: 35%;
-    margin: 0px auto;
-    position: absolute;
     margin-left: 370px;
-    justify-content: space-between;
-  }
-
-  .footerMob {
-    display: none;
   }
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ tablet Screen size 1280px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 @media screen and (max-width: 1280px) {
   .right {
     right: -40px;
   }
-
   header {
     width: 172vw;
   }
   .links {
     width: 29%;
   }
-
   .container1 {
     width: 96vw;
   }
-
   .c1Left {
     width: 67%;
   }
@@ -2049,18 +658,15 @@ a {
   .right {
     right: -541px;
   }
-
   header {
     width: 172vw;
   }
   .links {
     width: 29%;
   }
-
   .container1 {
     width: 160vw;
   }
-
   .c1Left {
     width: 67%;
   }
@@ -2156,7 +762,6 @@ a {
   }
 }
 
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile Screen size 385px  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media screen and (max-width: 385px) {
@@ -2172,14 +777,8 @@ a {
     display: none;
   }
   .left {
-    background: url(./imgs/left.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
     width: 370px;
     height: 370px;
-    border: none;
-    left: -6px;
     top: -0px;
   }
   .navLeft {
@@ -2303,10 +902,8 @@ a {
     display: block;
   }
   .sep {
-    /* top: 630px; */
     width: 20px;
     height: 33px;
-    /* left: 350px; */
     top: 630px;
     position: absolute;
     left: 350px;
@@ -2594,7 +1191,6 @@ a {
   .left {
     width: 366px;
   }
-
   .btnDiv {
     left: 0px;
   }
