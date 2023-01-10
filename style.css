@@ -1987,6 +1987,7 @@ a {
     display: none;
   }
 }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile Screen size 385px  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media screen and (max-width: 385px) {
   body {
@@ -2417,5 +2418,32 @@ a {
 
   .sec4Mob ul li {
     margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container1{
+    width: 105vw;
+  }
+  .container2{
+    width: 105vw;
+  }
+  .container3{
+    width: 105vw;
+  }
+  .container4{
+    width: 105vw;
+  }
+  .container5{
+    width: 105vw;
+  }
+  .container6{
+    width: 105vw;
+  }
+  .container7Mob{
+    width: 105vw;
+  }
+  .footerMob{
+    width: 105vw;
   }
 }

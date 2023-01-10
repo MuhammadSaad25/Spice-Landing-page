@@ -1,4 +1,6 @@
-@media screen and (max-widht: 385px) {
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile Screen size 385px  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 385px) {
   body {
     width: 100vw;
     height: 100vh;
@@ -53,9 +55,11 @@
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ container 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .container1 {
+    width: 100%;
     padding: 0;
     top: 70px;
     display: block;
+    left: 0px;
   }
   .c1Left {
     width: 100%;
@@ -63,61 +67,103 @@
   }
   .c1Right {
     width: 100%;
-    padding-left: 15px;
     padding-right: 0px;
   }
   .containt1 h1 {
-    letter-spacing: 0.5px;
-    width: 100%;
-    font-size: 22px;
-    margin: 20px 0 0 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    width: 360px;
+    height: 38px;
+    left: 16px;
+    top: 30px;
   }
   .containt1 .p1 {
-    width: 100%;
-    margin: 30px 0 0 0;
-    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    width: 301px;
+    height: 38px;
+    position: absolute;
+    left: 16px;
+    top: 110px;
   }
   .containt1 p {
     width: 100%;
     font-size: 14px;
     margin: 30px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    width: 301px;
+    height: 34px;
+    left: 16px;
+    top: 170px;
   }
   .c1btnDiv {
     font-size: 16px;
-    width: 100%;
-    margin: 30px 0 0 0;
+    width: 94%;
+    margin: 0px;
+    position: absolute;
+    /* width: 301px; */
+    height: 34px;
+    left: 16px;
+    justify-content: flex-start;
+    top: 270px;
   }
   .mBtn2 {
+    margin-right: 10px;
     height: 47px;
     width: 154px;
   }
   .wBtn {
     height: 47px;
     width: 154px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .wBtn img {
+    margin: 0px 10px;
   }
   .roundDiv {
-    margin-top: 20px;
     background: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    width: 307.22px;
+    height: 466px;
+    left: 70px;
+    top: 360px;
   }
   .mainIMG {
     display: block;
   }
   .sep {
+    /* top: 630px; */
+    width: 20px;
+    height: 33px;
+    /* left: 350px; */
     top: 630px;
     position: absolute;
-    right: 10px;
+    left: 350px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container2 {
+    width: 100vw;
     padding: 0;
     top: 800px;
   }
   .c2heading {
+    width: 360px;
+    height: 38px;
+    left: 16px;
+    top: 30px;
     width: 100%;
   }
 
@@ -131,10 +177,12 @@
   }
 
   .c2pra {
-    width: 100%;
-  }
-
-  .c2pra p {
+    width: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
     padding: 0 35px;
     margin-top: 20px;
     font-size: 12px;
@@ -143,7 +191,8 @@
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container3 {
-    top: 950px;
+    width: 100vw;
+    top: 910px;
     height: fit-content;
   }
 
@@ -177,18 +226,22 @@
     width: 19.5px;
   }
   .card h4 {
+    margin-top: 10px;
     font-size: 18px;
   }
   .card p {
-    padding: 0px 50px;
+    line-height: 14.52px;
+    margin-top: 10px;
+    padding: 0px 10px;
     font-size: 12px;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container4 {
+    width: 100vw;
     padding: 0;
-    top: 2350px;
+    top: 2120px;
   }
   .c4heading {
     width: 100%;
@@ -205,23 +258,27 @@
 
   .c4pra {
     width: 100%;
-  }
-
-  .c4pra p {
-    padding: 0 35px;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding: 0 40PX;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
   .container5 {
-    top: 2450px;
+    width: 100vw;
+    top: 2220px;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 6 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container6 {
-    top: 2530px;
+    width: 100vw;
+    top: 2300px;
   }
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
@@ -232,14 +289,15 @@
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 7 mobile @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
 
   .container7Mob {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     background: url(./imgs/RectangleMob.png);
     background-size: contain;
     background-position: center;
     height: 610px;
-    width: 100%;
-    top: 2700px;
+    /* width: 100%; */
+    top: 2460px;
     position: absolute;
   }
 
@@ -316,8 +374,9 @@
     justify-content: center;
     align-items: center;
     height: 610px;
-    width: 100%;
-    top: 3350px;
+    /* width: 100%; */
+    width: 100vw;
+    top: 3120px;
     position: absolute;
   }
 
