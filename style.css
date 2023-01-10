@@ -1996,7 +1996,7 @@ a {
   }
 
   header {
-    width: 103.3vw;
+    width: 172vw;
   }
   .links {
     width: 29%;
@@ -2041,6 +2041,62 @@ a {
   }
   .footer {
     width: 103.3vw;
+    top: 4100px;
+  }
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ tablet Screen size 768px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 768px) {
+  .right {
+    right: -40px;
+  }
+
+  header {
+    width: 172vw;
+  }
+  .links {
+    width: 29%;
+  }
+
+  .container1 {
+    width: 160vw;
+  }
+
+  .c1Left {
+    width: 67%;
+  }
+  .roundDiv {
+    left: 665px;
+    top: -60px;
+  }
+  .sep {
+    left: 1200px;
+    top: 520px;
+  }
+  .container2 {
+    width: 172vw;
+  }
+  .container3 {
+    width: 172vw;
+  }
+  .container4 {
+    width: 172vw;
+    top: 2530px;
+  }
+  .container5 {
+    width: 172vw;
+    top: 2750px;
+  }
+  .container6 {
+    width: 172vw;
+    top: 3030px;
+  }
+  .container7 {
+    width: 172vw;
+    top: 3350px;
+  }
+  .footer {
+    width: 172vw;
     top: 4100px;
   }
 }
