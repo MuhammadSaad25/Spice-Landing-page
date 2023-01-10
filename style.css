@@ -124,6 +124,7 @@ a {
   }
   .c1Left {
     width: 60%;
+    margin-top: 50px;
   }
 
   .roundDiv {
@@ -1987,6 +1988,22 @@ a {
     display: none;
   }
 }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ tablet Screen size 768px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 768px) {
+  .right {
+    right: -580px;
+  }
+
+  header {
+    width: 176.5vw;
+  }
+
+  .container1{
+    width: 140%;
+  }
+}
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile Screen size 385px  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media screen and (max-width: 385px) {
@@ -2254,7 +2271,7 @@ a {
     font-size: 12px;
     line-height: 15px;
     text-align: center;
-    padding: 0 40PX;
+    padding: 0 40px;
   }
 
   /* <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Container 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> */
@@ -2421,21 +2438,20 @@ a {
   }
 }
 @media screen and (max-width: 360px) {
-  .left{
+  .left {
     width: 366px;
   }
 
-  .btnDiv{
+  .btnDiv {
     left: 0px;
   }
   .containt1 h1 {
     left: 0px;
   }
-  .roundDiv{
+  .roundDiv {
     left: 40px;
   }
-  .sep{
+  .sep {
     left: 310px;
   }
 }
-
